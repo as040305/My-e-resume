@@ -1,0 +1,12 @@
+Instruction/notes for Sir Mahadi, incase of confusion:
+
+**DISLCAIMER: Please only open it using chrome**
+
+1. The start file is the first file you should click on, if you want to open it, use google chrome.
+2. The index file is where the frame src is located.
+
+- On any part that can be scroll down, please do scroll down.
+- The text on the navigation bar, the words for smksb and uitm can be click on even if it doesn't seem to be highlighted with the usual bright blue you usually see on most platform.
+- Click on 'home' and 'about me' twice so that the audio can be autoplay.
+
+That's all, thank you.
