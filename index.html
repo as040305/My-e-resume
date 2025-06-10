@@ -98,6 +98,24 @@
     color: #7EBED4; 
     text-decoration: none;
   }
+    }
+
+  .audio-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FAFAFA;
+    color: #4F5E6C;
+    border: 2px solid #E0C482;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 6px rgba(157, 146, 184, 0.2);
+    z-index: 9999;
+  }
+
+  .audio-box audio {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(85%);
+  }
 
 </style>
 </head>
@@ -120,9 +138,14 @@
 <br>
 <h2 style="font-size: 18px; text-allign:center;"><a href="main.html" target="_blank"><u><b>Click here to start</u></b></a></h2>
 <p>
-<h4 style="font-size:12px; text-allign:center, justify; color:#9D92B8;" >Reference: Emadamerho-Atori, N. (2024, December 27). 39 awesome CSS Animation examples with demos + code. 39 Awesome CSS Animation Examples with Demos + Code. https://prismic.io/blog/css-animation-examples</h4>
 <br>
-<h3>© 2024 prismic. All Rights Reserved</h3>
+<h3>© 2025 ALLYSHA. All Rights Reserved</h3>
+
+<div class="audio-box">
+  <audio controls autoplay loop styele="display: none;">
+    <source src="yokoflow.mp3" type="audio/mpeg">
+  </audio>
+</div>  
 
 </body>
 </html>
