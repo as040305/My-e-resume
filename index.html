@@ -94,11 +94,11 @@
     color: #9D92B8;
     margin: 0;
   }
+
   a:link, a:visited, a:hover, a:active {
     color: #7EBED4; 
     text-decoration: none;
   }
-    }
 
   .audio-box {
     position: fixed;
@@ -111,6 +111,7 @@
     padding: 5px 10px;
     box-shadow: 0 2px 6px rgba(157, 146, 184, 0.2);
     z-index: 9999;
+    display: none; /* hides the entire audio box */
   }
 
   .audio-box audio {
@@ -142,7 +143,7 @@
 <h3>© 2025 ALLYSHA. All Rights Reserved</h3>
 
 <div class="audio-box">
-  <audio controls autoplay loop style="display: none;">
+  <audio autoplay loop>
     <source src="yokoflow.mp3" type="audio/mpeg">
   </audio>
 </div>  
